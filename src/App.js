@@ -1,7 +1,9 @@
+import Header from "./components/Header";
+
 const App = () => {
   return (
     <div className="App">
-      <h1>TypeMaster Landing Page</h1>
+      <Header />
     </div>
   );
 };
