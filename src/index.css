@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap");
 
 :root {
   --pumpkin: #f16718; /* Button 1 Normal State */
@@ -56,16 +56,42 @@ h4 {
   line-height: 2.8rem;
 }
 
-/* Button One Component */
+h5 {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #7b8bad;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
+p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 500;
+  color: #7b8bad;
+}
+
+/* Button One Component */
 .button-one button {
   width: 151px;
   height: 48px;
   background-color: #ebeff2;
   border-radius: 10px;
   border: none;
-  font-weight: 900;
+  font-weight: 700;
   color: #162542;
+  text-transform: uppercase;
+}
+
+/* Button Two Component */
+.button-two button {
+  width: 151px;
+  height: 48px;
+  background-color: #f16718;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -75,5 +101,28 @@ h4 {
   justify-content: space-between;
   align-items: center;
   padding: 25px;
-  margin-bottom: 75px;
+  margin-bottom: 25px;
+}
+
+/* Typemaster Component */
+.typemaster {
+  padding: 25px;
+}
+
+.typemaster-heading,
+.typemaster-body {
+  margin-bottom: 25px;
+}
+
+.typemaster-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.typemaster-keyboard {
+  border-radius: 20px;
+  position: absolute;
+  right: -50px;
 }
