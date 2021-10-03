@@ -123,6 +123,35 @@ p {
 
 .typemaster-keyboard {
   border-radius: 20px;
-  position: absolute;
+  position: relative;
   right: -50px;
+}
+
+/* Mechanical Component */
+.mechanical {
+  padding: 25px;
+}
+
+.mechanical-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.mechanical-images img {
+  border-radius: 20px;
+}
+
+.mechanical-body {
+  text-align: center;
+}
+
+.mechanical-body h3 {
+  padding: 0 15px;
+  margin-bottom: 25px;
+}
+
+.mechanical-body p {
+  padding: 0 5px;
 }
