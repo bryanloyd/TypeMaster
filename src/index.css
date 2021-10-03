@@ -130,6 +130,7 @@ p {
 /* Mechanical Component */
 .mechanical {
   padding: 25px;
+  margin-bottom: 75px;
 }
 
 .mechanical-images {
@@ -154,4 +155,30 @@ p {
 
 .mechanical-body p {
   padding: 0 5px;
+}
+
+/* Features Component */
+.feature {
+  text-align: center;
+  padding: 0 25px;
+}
+
+.feature-image {
+  background-color: #f16718;
+  border-radius: 10px;
+  width: 65px;
+  height: 65px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-title {
+  padding: 0 70px;
+  margin-bottom: 25px;
+}
+
+.feature-desc {
+  margin-bottom: 50px;
 }
