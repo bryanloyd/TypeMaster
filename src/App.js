@@ -3,6 +3,7 @@ import Features from "./components/Features";
 import Header from "./components/Header";
 import Mechanical from "./components/Mechanical";
 import Typemaster from "./components/Typemaster";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Typemaster />
       <Mechanical />
       <Features />
+      <Footer />
     </div>
   );
 };

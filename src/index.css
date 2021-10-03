@@ -106,7 +106,7 @@ p {
 
 /* Typemaster Component */
 .typemaster {
-  padding: 25px;
+  padding: 0 25px;
 }
 
 .typemaster-heading,
@@ -121,10 +121,15 @@ p {
   margin-bottom: 50px;
 }
 
+.typemaster-image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
 .typemaster-keyboard {
-  border-radius: 20px;
-  position: relative;
-  right: -50px;
+  border-radius: 20px 0 0 20px;
+  padding: 0;
 }
 
 /* Mechanical Component */
@@ -181,4 +186,10 @@ p {
 
 .feature-desc {
   margin-bottom: 50px;
+}
+
+/* Footer Component */
+.footer {
+  text-align: center;
+  margin: 50px 0;
 }

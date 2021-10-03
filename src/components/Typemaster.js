@@ -21,7 +21,7 @@ const Typemaster = () => {
             </div>
           </div>
 
-          <div>
+          <div className="typemaster-image">
             <img src={keyboard} alt="" className="typemaster-keyboard" />
           </div>
         </div>
