@@ -9,6 +9,7 @@ const Mechanical = () => {
           <div className="mechanical-images">
             <div>
               <img src={phone} alt="" />
+              <div className="img_overlay"></div>
             </div>
             <div>
               <img src={glass} alt="" />
